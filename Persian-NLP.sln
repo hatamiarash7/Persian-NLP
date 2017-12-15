@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persian-NLP", "Persian-NLP.csproj", "{C5AECF11-12DF-4146-8352-6C1209B02E71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2F8F52F4-D014-4A2D-B879-4CD1AC3F8DFB} = {2F8F52F4-D014-4A2D-B879-4CD1AC3F8DFB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHazm", "..\..\Visual Studio 2015\Projects\NHazm\NHazm\NHazm.csproj", "{2F8F52F4-D014-4A2D-B879-4CD1AC3F8DFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{C5AECF11-12DF-4146-8352-6C1209B02E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5AECF11-12DF-4146-8352-6C1209B02E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5AECF11-12DF-4146-8352-6C1209B02E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F8F52F4-D014-4A2D-B879-4CD1AC3F8DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8F52F4-D014-4A2D-B879-4CD1AC3F8DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8F52F4-D014-4A2D-B879-4CD1AC3F8DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8F52F4-D014-4A2D-B879-4CD1AC3F8DFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
